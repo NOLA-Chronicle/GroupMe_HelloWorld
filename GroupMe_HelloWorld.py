@@ -6,5 +6,5 @@ counter = 0
 while counter < 10:
 	time.sleep(3)
 	print(counter)
-	counter += 1
+	counter += 2
 	
