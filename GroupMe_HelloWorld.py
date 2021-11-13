@@ -14,7 +14,7 @@ print(config["StartingMsg"])
 
 #Global Declarations
 __GMPrivKey_API = os.environ['GroupMePrivKey']
-__Port = os.environ['PORT']
+__Port = int(os.environ['PORT'])
 host = config["IP_Address"]
 baseURL = "https://api.groupme.com/v3"
 
