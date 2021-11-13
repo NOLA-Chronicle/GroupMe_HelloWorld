@@ -18,7 +18,7 @@ __Port = os.environ['PORT']
 host = config["IP_Address"]
 baseURL = "https://api.groupme.com/v3"
 
-while true:
+while True:
 	soc = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)
 
 	try:
